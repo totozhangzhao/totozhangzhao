@@ -2,7 +2,7 @@
   <ul class="common-banner-area clearfix">
     <% _.each(Url, function(item, index) {  %>
     <li class="common-banner-pic fl">
-      <a href="<%= item.url %>">
+      <a data-href="<%= item.url %>" class="js-open">
         <img src="<%= item.img %>" class="goods-img" alt="">
       </a>
     </li>
