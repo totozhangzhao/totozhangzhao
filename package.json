@@ -59,5 +59,8 @@
     "style-loader": "^0.13.1",
     "tpl-loader": "^0.2.1",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "hexo-deployer-git": "^0.3.1"
   }
 }
