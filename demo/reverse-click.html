@@ -29,6 +29,9 @@
 		transform-style: preserve-3d;
 		transition: 1s all linear;
 		transform:perspective(800px) rotateY(0deg);
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 1s all linear;
+		-webkit-transform:perspective(800px) rotateY(0deg);
 	}
 	.box .front,
 	.box .back {
@@ -52,6 +55,7 @@
 	}
 	.box.active {
 		transform: perspective(800px) rotateY(-180deg);
+		-webkit-transform: perspective(800px) rotateY(-180deg);
 	}
 	</style>
 	<script>
